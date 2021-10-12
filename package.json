@@ -1,0 +1,21 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css"
+  },
+  "keywords": [
+    "Sass",
+    "Gulp"
+  ],
+  "author": "Andrés Nehuel Villagra Rodríguez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.42.1"
+  }
+}
