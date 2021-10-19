@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 function iniciarApp(){
     navegacionFija();
- 
+    crearGaleria();
 }
 function navegacionFija(){
     const barra=document.querySelector('.header')
