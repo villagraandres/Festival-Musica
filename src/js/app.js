@@ -14,7 +14,7 @@ function navegacionFija(){
     const body=document.querySelector('body')
 
     window.addEventListener('scroll',function(){
-        if (sobreFestival.getBoundingClientRect().top<0) {
+        if (sobreFestival.getBoundingClientRect().top<0 && window.matchMedia("(min-width: 400px)").matches) {
             barra.classList.add('fijo')
             body.classList.add('body-scroll')
         }else{
